@@ -23,7 +23,7 @@ function even (){
 
 even();
 
-for(var i =0; i < y; i++){
+for(var i =0; i < x; i++){
     if(i % 2 ===0){
         console.log(i);
     }
@@ -31,3 +31,15 @@ for(var i =0; i < y; i++){
         console.log('odd');
     }
 }
+
+var sales = 'Toyota';
+
+function carTypes(name){
+    if (name === 'Honda'){
+        console.log(name);
+    } else {
+        console.log("Sorry, we don't sell" + name + ".");
+    }
+}
+
+carTypes('toyota');
