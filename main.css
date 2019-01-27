@@ -1,0 +1,13 @@
+p {
+    width: 150px;
+    border: 2px solid royalblue;
+    padding: 10px;
+}
+
+.example {
+    margin-top: 5px;
+}
+
+#rat {
+    margin: 80px;
+}
